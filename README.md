@@ -25,3 +25,6 @@ https://wszhan.github.io/2018/04/09/installing-anaconda-on-ec2.html
 
 https://github.com/tseemann/prokka
 
+https://repo.continuum.io/archive/
+
+https://anaconda.org/bioconda/prokka
