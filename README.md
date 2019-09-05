@@ -11,11 +11,12 @@ Installation steps for conda and prokka on Amazon web services EC2
 6. which python #again to check
 7. test by running python and exit out of python
 8. pwd to check your absolute path
-9. install prokka ==  conda install -c bioconda prokka 
-                       conda install -c bioconda/label/cf201901 prokka 
+9. install prokka ==  conda install -c bioconda prokka or
+                       conda install -c bioconda/label/cf201901 prokka or
                        *this worked for me but you may want to use this instead
                        conda install -c conda-forge -c bioconda -c defaults prokka
 10. check to see if prokka is working by running prokka, then prokka --version, then prokka --listdb
+11. had to install cd-hit as well  conda install -c bioconda cd-hit 
 
 Sources I have used to come up with this approach:
 
@@ -28,3 +29,5 @@ https://github.com/tseemann/prokka
 https://repo.continuum.io/archive/
 
 https://anaconda.org/bioconda/prokka
+
+https://anaconda.org/bioconda/cd-hit
